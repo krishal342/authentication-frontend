@@ -4,7 +4,7 @@
   --background: #0a0a0a;
   --background-secondary: #18181b;
   --foreground: #ededed;
-  --blue: #1d4ed8;
+  --blue: #2058f1;
   --border-color: #3f3f46;
   --body-max-width: 1500px;
 }
@@ -32,7 +32,6 @@ body {
     border-bottom: 1px solid var(--border-color);
 }
 
-
 .input-field{
     border: 1px solid var(--border-color);
     border-radius: 0.5rem;
@@ -44,10 +43,11 @@ body {
 .switch-btn{
     color: var(--blue);
     cursor: pointer;
+    opacity: 0.8;
 }
 .switch-btn:hover{
     color: var(--blue);
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .eye-slash{

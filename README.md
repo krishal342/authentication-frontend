@@ -13,6 +13,7 @@
 
 # routes
 
-/auth/login
-/auth/signup
-/
+- /auth/login
+- /auth/signup
+- /auth/resetPassword
+- /
