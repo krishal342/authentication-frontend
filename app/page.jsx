@@ -15,8 +15,8 @@ const Home = () => {
       const resData = await response.json();
 
       if (response.status === 401) {
-        // window.location.href = '/auth/login';
-        console.log(resData);
+        window.location.href = '/auth/login';
+        // console.log(resData);
       }
       else if (response.ok) {
         setdata(resData);
@@ -38,7 +38,7 @@ const Home = () => {
   }
 
   if (!data) {
-    return <h1>Loading...</h1>
+    return <h1>fetching...</h1>
   }
 
   return (
