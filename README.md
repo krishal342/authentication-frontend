@@ -1,6 +1,6 @@
 # Links
-- Frontend-UI-Link = https://authentication-frontend-phi.vercel.app
-- Backend-API-Link = https://authentication-jwt-and-oauth-2.onrender.com
+- Frontend-UI-Link = https://auth-frontend-xi-one.vercel.app/
+- Backend-API-Link = https://auth-backend-as11.onrender.com
 - Backend-code = https://github.com/krishal342/authentication-JWT_and_OAuth
 
 # frontend for authentication using 
