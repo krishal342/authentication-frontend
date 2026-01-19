@@ -8,7 +8,7 @@ export default function OAuthSuccess() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.replace('/')
-    }, 300)
+    }, 500)
 
     return () => clearTimeout(timer)
   }, [])
